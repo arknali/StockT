@@ -25,7 +25,9 @@ namespace Stock.Repository
 
         public IQueryable<T> Lists()
         {
+            
             return Context.Set<T>();
+            
         }
 
         public bool Add(T entity)
@@ -33,7 +35,7 @@ namespace Stock.Repository
             try
             {
 
-                Context.Set<T>().ToList().Add(entity);
+                Context.Set<T>();
                 Context.SaveChanges();
                 return true;
             }
@@ -60,7 +62,23 @@ namespace Stock.Repository
 
         public bool Delete(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Context.Set<T>().ToList().Remove(entity);
+                Context.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+        }
+
+
+        public virtual T GetOne(Guid Id)
+        {
+            return null;
         }
     }
 }

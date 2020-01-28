@@ -57,10 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IEntityRepository.cs" />
+    <Compile Include="ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositoryBase.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Stock.Dto\Stock.Dto.csproj">
+      <Project>{74e881ef-8a8c-47f5-b623-bf34f5501ef7}</Project>
+      <Name>Stock.Dto</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StockDb\StockDb.csproj">
       <Project>{b2a392db-a10d-4981-8048-d9c99e85f901}</Project>
       <Name>StockDb</Name>

@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<StockDb.StockDbContext.StockContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<StockDb.StockDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(StockDb.StockDbContext.StockContext context)
+        protected override void Seed(StockDb.StockDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
