@@ -36,7 +36,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>ServiceLib.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>StockLib.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper, Version=7.0.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
@@ -107,7 +107,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-    <None Include="ServiceLib.pfx" />
+    <None Include="StockLib.pfx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

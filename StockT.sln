@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockUI", "StockT\StockUI.csproj", "{F6BCA9B6-6298-4898-BC7B-D6FB44CD9ED0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockDb", "StockDb\StockDb.csproj", "{B2A392DB-A10D-4981-8048-D9C99E85F901}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F7AD796E-A38E-44CB-9AE6-3F88CAA8FE00}"
@@ -19,16 +17,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Lib", "Service.Lib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StcokTest.cs", "StcokTest.cs\StcokTest.cs.csproj", "{DAAAF8BB-C49C-4344-9DB8-1E2AFAEA9101}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockClient", "StockClient\StockClient.csproj", "{D54FB492-B8F3-4314-8F11-1115B4DD180C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F6BCA9B6-6298-4898-BC7B-D6FB44CD9ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6BCA9B6-6298-4898-BC7B-D6FB44CD9ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6BCA9B6-6298-4898-BC7B-D6FB44CD9ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6BCA9B6-6298-4898-BC7B-D6FB44CD9ED0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2A392DB-A10D-4981-8048-D9C99E85F901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2A392DB-A10D-4981-8048-D9C99E85F901}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2A392DB-A10D-4981-8048-D9C99E85F901}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{DAAAF8BB-C49C-4344-9DB8-1E2AFAEA9101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAAAF8BB-C49C-4344-9DB8-1E2AFAEA9101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAAAF8BB-C49C-4344-9DB8-1E2AFAEA9101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54FB492-B8F3-4314-8F11-1115B4DD180C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54FB492-B8F3-4314-8F11-1115B4DD180C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54FB492-B8F3-4314-8F11-1115B4DD180C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54FB492-B8F3-4314-8F11-1115B4DD180C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

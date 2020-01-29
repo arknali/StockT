@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StockT
+namespace StockClient
 {
     static class Program
     {
@@ -16,8 +16,7 @@ namespace StockT
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new MainViewPage());
-            
+            Application.Run(new MainPage());
         }
     }
 }
